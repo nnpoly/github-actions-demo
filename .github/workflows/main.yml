@@ -4,6 +4,7 @@ env:
   env_var: ${{ vars.REPO_VAR }}
 jobs:
   test:
+    env:
     env_var: "This is a job var"
     runs-on: ubuntu-latest
     steps:
