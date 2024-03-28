@@ -5,7 +5,7 @@ env:
 jobs:
   test:
     env:
-    env_var: "This is a job var"
+      env_var: "This is a job var"
     runs-on: ubuntu-latest
     steps:
     - run: echo ${{ env.env_var }}
