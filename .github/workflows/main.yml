@@ -9,3 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo ${{ env.env_var }}
+      env_var: "This is a step var"
